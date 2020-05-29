@@ -14,4 +14,4 @@ main.ps1 have three functions :
     powershell -exec bypass
     .\main.ps1
   
-![alt text](https://github.com/p0sql/INTECH/tree/master/GoldenTicket_Automation/image/usage.png?raw=true)
+![Usage image](https://github.com/p0sql/INTECH/tree/master/GoldenTicket_Automation/image/usage.png?raw=true)
