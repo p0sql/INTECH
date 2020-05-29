@@ -1,10 +1,10 @@
 function Get-DomainInfos{
     <#
     .SYNOPSIS
-        Récupérer les informations du domaine
+        Get domain informations
     .DESCRIPTION
-        Informations : SID, Nom de domaine
-        Retourne Un objet dans un array:
+        Informations : SID, Domain Name
+        Return an array of powershell objects:
         [0] Domain name
         [1] Domain SID
         [2] Account type
@@ -21,10 +21,9 @@ function Get-DomainInfos{
 function Get-Bowser{
     <#
     .SYNOPSIS
-        Un hash en sortie
-    
+        The hash is the output
     .DESCRIPTION
-        Permet de retourner le hash du user krbtgt
+        Return krbtgt hash
     
     .PARAMETER DomainName
         Domain Name
@@ -56,9 +55,9 @@ function Get-Bowser{
 function Create-Golden{
     <#
     .SYNOPSIS
-        Crée le golden ticket et vérifie sa présence dans le répertoire
+        Create golden ticket and check it in the directory
     .DESCRIPTION 
-        Retourne un ticket pour effectuer du pass the ticket
+        Return a ticket to carry out a Pass The Ticket attack
     #>
     param(
         [parameter(
