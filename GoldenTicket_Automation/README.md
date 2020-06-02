@@ -1,6 +1,6 @@
 # Golden Ticket Automation
 
-Theses scripts allow an attacker with domain admin rights to automate Golden Ticket creation in Active Directory.
+These scripts allow an attacker with domain admin rights to automate Golden Ticket creation in Active Directory.
 The script main.ps1 download an obfuscated (Encoded Base64 and AES 128 bits encryption) Mimikatz by Xencrypt powershell script. Its pwned.ps1 (You can change it if you want and use a share or http server).
 
 **The script main.ps1 use Elixir to download pwned.ps1 and put it directly in memory, its a fileless attack.**
